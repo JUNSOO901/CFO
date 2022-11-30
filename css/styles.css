@@ -12275,3 +12275,72 @@ section#contact form#contactForm :-ms-input-placeholder {
     Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
     'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
+
+/* DoctorTwiceClub */
+
+/* header */
+header.dtcHead {
+  padding-top: 10.5rem;
+  padding-bottom: 6rem;
+  text-align: center;
+  color: #fff;
+  background-image: url('../assets/img/bg_CFO_dtcHead_1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
+header.dtcHead .dtcHead-subheading {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-bottom: 25px;
+  font-weight: 300;
+  font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+header.dtcHead .dtcHead-heading {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 3.25rem;
+  margin-bottom: 1rem;
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+@media (min-width: 768px) {
+  header.dtcHead {
+    padding-top: 13rem;
+    padding-bottom: 10rem;
+  }
+  header.dtcHead .dtcHead-subheading {
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    margin-bottom: 2rem;
+  }
+  header.dtcHead .dtcHead-heading {
+    font-size: 2.75rem;
+    font-weight: 700;
+    line-height: 4.5rem;
+    margin-bottom: 1rem;
+  }
+}
+/* header end */
+/* contents nav strat */
+.contents_nav .navbar-nav {
+  flex-direction: row;
+  justify-content: center;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.contents_nav .nav-item {
+  margin-right: 2rem;
+}
+
+.contents_nav .nav-item .nav-link {
+  color: #333;
+  padding: 2rem 0;
+}
+/* contents nav end */
+/* profit section s*/
