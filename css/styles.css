@@ -11675,6 +11675,39 @@ p {
   line-height: 1.75;
 }
 
+.arrow-box {
+  position: fixed;
+  right: 2rem;
+  bottom: 2rem;
+  transition: all 0.3s ease-in-out;
+  opacity: 0;
+}
+.arrow-goTop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  width: 4rem;
+  height: 4rem;
+  border: 1px solid #00000020;
+  box-shadow: 0 3px 6px #00000010;
+  border-radius: 50%;
+  color: #333;
+  flex-direction: column;
+  transition: all 0.3s ease-in-out;
+}
+.arrow-goTop:hover {
+  background-color: #ffc800 !important;
+  color: #333 !important;
+  border: none;
+}
+.arrow-goTop:nth-child(1) {
+  background-color: #333333;
+}
+.arrow-box.show {
+  opacity: 1;
+}
+
 .page-section {
   padding: 7.5rem 0;
 }
@@ -11883,7 +11916,7 @@ header.masthead .masthead-heading {
 }
 
 #cfoMedia .media-box {
-  border: 1px solid #e0e0e0;
+  /* border: 1px solid #e0e0e0; */
 }
 
 #cfoMedia .media-box iframe {
@@ -11948,7 +11981,10 @@ header.masthead .masthead-heading {
   text-align: center;
   color: white;
 }
-
+#clinics .clinics-box a {
+  text-decoration: none;
+  color: #fff;
+}
 #clinics .clinics-box h3 {
   padding: 5.5rem 2rem;
 }
