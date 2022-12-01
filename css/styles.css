@@ -12394,3 +12394,12 @@ header.mode1Head .mode1Head-heading {
     margin-bottom: 1rem;
   }
 }
+
+.servese-view-btn,
+.servese-view-close {
+  color: #1775f9;
+  font-weight: bold;
+}
+.servese-view-flow {
+  display: none;
+}

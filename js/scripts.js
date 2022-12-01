@@ -62,4 +62,32 @@ window.addEventListener('DOMContentLoaded', (event) => {
       }
     });
   });
+
+  // 서비스 구상도 자세히 보기 클릭시 구상도 펼쳐지는 기능
+  const serveseFlowbtn = document.body.querySelector('.servese-view-btn');
+  const serveseFlowclose = document.body.querySelector('.servese-view-close');
+  const serveseViewflow = document.body.querySelector('.servese-view-flow');
+
+  serveseFlowbtn.addEventListener('click', () => {
+    if (window.getComputedStyle(serveseViewflow).display === 'none') {
+      serveseViewflow.style.display = 'block';
+      serveseFlowbtn.style.display = 'none';
+      serveseViewflow.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start',
+        inline: 'nearest',
+      });
+    }
+  });
+  serveseFlowclose.addEventListener('click', () => {
+    if (window.getComputedStyle(serveseViewflow).display !== 'none') {
+      serveseViewflow.style.display = 'none';
+      serveseFlowbtn.style.display = 'block';
+      document.body.querySelector('#modeSolution').scrollIntoView({
+        behavior: 'smooth',
+        block: 'start',
+        inline: 'nearest',
+      });
+    }
+  });
 });
