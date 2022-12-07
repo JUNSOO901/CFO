@@ -12241,3 +12241,9 @@ header.bg-mode1 {
 header.bg-mode2 {
   background-image: url('../assets/img/bg_CFO_mode2Head_1.jpg');
 }
+/* === mode_1 page End ===*/
+
+/* === mode_2_detail page start ===*/
+header.bg-mode2 {
+  background-image: url('../assets/img/bg_CFO_mode2Head_1.jpg');
+}
