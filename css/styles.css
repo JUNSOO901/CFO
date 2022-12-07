@@ -12211,30 +12211,32 @@ header.bg-mode1 {
     center/cover;
 }
 
-#mode1d_alfredo .row-box {
+.row-box {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
 }
-#mode1d_alfredo .row-box .row-text {
+.row-box .row-text {
   margin-bottom: 0;
   width: 100%;
   border: 1px solid #e0e0e0;
   font-weight: 400;
-  padding: 2rem 0;
+  padding: 2rem 1rem;
   margin-right: 1rem;
   color: #333;
+  height: 100px;
 
   display: flex;
   justify-content: center;
   align-items: center;
 }
-#mode1d_alfredo .row-box i {
+.row-box .list-disc::before {
+  display: contents;
+  content: '\F519  ';
   color: #1775f9;
-  margin-right: 0.5rem;
+  font-family: 'Bootstrap-icons';
   font-size: 1rem;
-  top: 50%;
 }
 
 /* === mode_1 page start ===*/
