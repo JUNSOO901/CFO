@@ -63,13 +63,11 @@
     rgba(255, 255, 255, 0.15),
     rgba(255, 255, 255, 0)
   );
-  --bs-body-font-family: Roboto Slab, -apple-system, BlinkMacSystemFont,
-    Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji,
-    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  --bs-body-font-family: 'Noto Sans', sans-serif;
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
-  --bs-body-color: #212529;
+  --bs-body-color: #333333;
   --bs-body-bg: #fff;
 }
 
@@ -124,9 +122,6 @@ h1,
 .h1 {
   margin-top: 0;
   margin-bottom: 0.5rem;
-  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
-    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   font-weight: 700;
   line-height: 1.2;
 }
@@ -2250,7 +2245,7 @@ progress {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  border-radius: 0.25rem;
+  border-radius: 0rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
@@ -2479,7 +2474,7 @@ textarea.form-control-lg {
   background-position: right 0.75rem center;
   background-size: 16px 12px;
   border: 1px solid #ced4da;
-  border-radius: 0.25rem;
+  border-radius: 0rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -6075,9 +6070,6 @@ fieldset:disabled .btn {
   z-index: 1080;
   display: block;
   margin: 0;
-  font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
-    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -6191,9 +6183,6 @@ fieldset:disabled .btn {
   z-index: 1070;
   display: block;
   max-width: 276px;
-  font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
-    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -11723,9 +11712,6 @@ p {
 .page-section .section-subheading.h3 {
   font-size: 1.5rem;
   font-weight: 400;
-  font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
-    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   margin-bottom: 4rem;
 }
 .page-divider-white {
@@ -11749,9 +11735,6 @@ p {
 }
 .btn-xl {
   padding: 0.75rem 5rem;
-  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
-    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   font-size: 1rem;
   font-weight: 700;
 }
@@ -11774,17 +11757,11 @@ p {
 #mainNav .navbar-toggler {
   padding: 0.75rem;
   font-size: 0.75rem;
-  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
-    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   text-transform: uppercase;
   font-weight: 700;
 }
 #mainNav .navbar-brand {
   color: #ffc800;
-  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
-    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   font-weight: 700;
   letter-spacing: 0.0625em;
   text-transform: uppercase;
@@ -11797,9 +11774,6 @@ p {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
-  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
-    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   font-size: 0.95rem;
   color: #fff;
   letter-spacing: 0.0625em;
@@ -11871,18 +11845,12 @@ header.mainHead .mainHead-subheading {
   line-height: 1.5rem;
   margin-bottom: 25px;
   font-weight: 300;
-  font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
-    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 header.mainHead .mainHead-heading {
   font-size: 4rem;
   font-weight: 700;
   line-height: 3.25rem;
   margin-bottom: 1rem;
-  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
-    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 @media (min-width: 768px) {
@@ -11909,7 +11877,6 @@ header.subHead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url('../assets/img/bg_CFO_dtcHead_1.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -11920,18 +11887,12 @@ header.subHead .subHead-subheading {
   line-height: 1.5rem;
   margin-bottom: 25px;
   font-weight: 300;
-  font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
-    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 header.subHead .subHead-heading {
   font-size: 1rem;
   font-weight: 700;
   line-height: 3.25rem;
   margin-bottom: 1rem;
-  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
-    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 @media (min-width: 768px) {
@@ -12110,30 +12071,18 @@ section#contact form#contactForm .form-control:focus {
   box-shadow: none;
 }
 section#contact form#contactForm ::-webkit-input-placeholder {
-  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
-    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   font-weight: 700;
   color: #ced4da;
 }
 section#contact form#contactForm :-moz-placeholder {
-  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
-    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   font-weight: 700;
   color: #ced4da;
 }
 section#contact form#contactForm ::-moz-placeholder {
-  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
-    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   font-weight: 700;
   color: #ced4da;
 }
 section#contact form#contactForm :-ms-input-placeholder {
-  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
-    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   font-weight: 700;
   color: #ced4da;
 }
@@ -12143,13 +12092,13 @@ section#contact form#contactForm :-ms-input-placeholder {
   color: #fff;
   text-align: center;
   font-size: 0.9rem;
-  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
-    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 /* main page End */
 
 /* DoctorTwiceClub */
+.bg-dtc {
+  background-image: url('../assets/img/bg_CFO_dtcHead_1.jpg');
+}
 /* contents nav strat */
 .contents_nav .navbar-nav {
   flex-direction: row;
@@ -12159,6 +12108,9 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 .contents_nav .nav-item {
   margin-right: 3rem;
+}
+.contents_nav .nav-item:last-child {
+  margin-right: 0rem;
 }
 
 .contents_nav .nav-item .nav-link {
@@ -12231,7 +12183,7 @@ header.bg-mode1 {
   justify-content: center;
   align-items: center;
 }
-.row-box .list-disc::before {
+.list-disc::before {
   display: contents;
   content: '\F519  ';
   color: #1775f9;
@@ -12239,13 +12191,33 @@ header.bg-mode1 {
   font-size: 1rem;
 }
 
-/* === mode_1 page start ===*/
+/* === mode_2 page start ===*/
 header.bg-mode2 {
-  background-image: url('../assets/img/bg_CFO_mode2Head_1.jpg');
+  background-image: url('../assets/img/bg_CFO_mode2_1.jpg');
 }
-/* === mode_1 page End ===*/
+/* === mode_2 page End ===*/
 
-/* === mode_2_detail page start ===*/
-header.bg-mode2 {
-  background-image: url('../assets/img/bg_CFO_mode2Head_1.jpg');
+/* === mode_3 page start ===*/
+header.bg-mode3 {
+  background-image: url('../assets/img/bg_CFO_mode3_1.jpg');
+}
+/* === mode_3 page End ===*/
+
+/* === contact page start ===*/
+.contact-nav.navbar-shrink {
+  box-shadow: 0 3px 6px #00000008 !important;
+}
+.contact-nav .nav-link {
+  color: #000 !important;
+}
+.contact-nav .navbar-brand_hidden {
+  display: block !important;
+}
+.contact-nav .navbar-brand {
+  display: none !important;
+}
+
+/* === contact page end ===*/
+#contactInput label {
+  margin-bottom: 0.25rem;
 }
