@@ -2234,7 +2234,7 @@ progress {
 .form-control {
   display: block;
   width: 100%;
-  padding: 0.375rem 0.75rem;
+  padding: 0.75rem 1rem;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -2262,9 +2262,9 @@ progress {
 .form-control:focus {
   color: #212529;
   background-color: #fff;
-  border-color: #ffe480;
+  border-color: #1775f970;
   outline: 0;
-  box-shadow: 0 0 0 0.25rem rgba(255, 200, 0, 0.25);
+  box-shadow: 0 0 0 0.25rem #1775f916;
 }
 .form-control::-webkit-date-and-time-value {
   height: 1.5em;
@@ -2462,7 +2462,7 @@ textarea.form-control-lg {
 .form-select {
   display: block;
   width: 100%;
-  padding: 0.375rem 2.25rem 0.375rem 0.75rem;
+  padding: 0.75rem 2.25rem 0.75rem 1rem;
   -moz-padding-start: calc(0.75rem - 3px);
   font-size: 1rem;
   font-weight: 400;
@@ -2486,9 +2486,9 @@ textarea.form-control-lg {
   }
 }
 .form-select:focus {
-  border-color: #ffe480;
+  border-color: #1775f970;
   outline: 0;
-  box-shadow: 0 0 0 0.25rem rgba(255, 200, 0, 0.25);
+  box-shadow: 0 0 0 0.25rem #1775f916;
 }
 .form-select[multiple],
 .form-select[size]:not([size='1']) {
@@ -2556,13 +2556,13 @@ textarea.form-control-lg {
   filter: brightness(90%);
 }
 .form-check-input:focus {
-  border-color: #ffe480;
+  border-color: #1775f970;
   outline: 0;
-  box-shadow: 0 0 0 0.25rem rgba(255, 200, 0, 0.25);
+  box-shadow: 0 0 0 0.25rem #1775f916;
 }
 .form-check-input:checked {
-  background-color: #ffc800;
-  border-color: #ffc800;
+  background-color: #1775f9;
+  border-color: #1775f9;
 }
 .form-check-input:checked[type='checkbox'] {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10l3 3l6-6'/%3e%3c/svg%3e");
@@ -11844,7 +11844,7 @@ header.mainHead .mainHead-subheading {
   font-size: 1rem;
   line-height: 1.5rem;
   margin-bottom: 25px;
-  font-weight: 300;
+  font-weight: 350;
 }
 header.mainHead .mainHead-heading {
   font-size: 4rem;
@@ -11886,7 +11886,7 @@ header.subHead .subHead-subheading {
   font-size: 1rem;
   line-height: 1.5rem;
   margin-bottom: 25px;
-  font-weight: 300;
+  font-weight: 400;
 }
 header.subHead .subHead-heading {
   font-size: 1rem;
@@ -12217,7 +12217,7 @@ header.bg-mode3 {
   display: none !important;
 }
 
-/* === contact page end ===*/
+/* === contact page start ===*/
 #contactInput label {
-  margin-bottom: 0.25rem;
+  margin-bottom: 0.5rem;
 }
