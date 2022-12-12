@@ -4325,12 +4325,13 @@ fieldset:disabled .btn {
   display: flex;
   flex-wrap: inherit;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  transition: all 1s ease-in-out;
 }
 .navbar-brand {
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
-  margin-right: 1rem;
+  margin-right: 0rem;
   font-size: 1.25rem;
   text-decoration: none;
   white-space: nowrap;
@@ -4369,6 +4370,28 @@ fieldset:disabled .btn {
   border: 1px solid transparent;
   border-radius: 0.25rem;
   transition: box-shadow 0.15s ease-in-out;
+}
+@media (min-width: 768px) {
+  .navbar > .container,
+  .navbar > .container-fluid,
+  .navbar > .container-sm,
+  .navbar > .container-md,
+  .navbar > .container-lg,
+  .navbar > .container-xl,
+  .navbar > .container-xxl {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .navbar-brand {
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    text-decoration: none;
+    white-space: nowrap;
+  }
 }
 @media (prefers-reduced-motion: reduce) {
   .navbar-toggler {
@@ -11774,6 +11797,9 @@ p {
   font-size: 0.75rem;
   text-transform: uppercase;
   font-weight: 700;
+  position: absolute;
+  top: 1.75rem;
+  right: 1rem;
 }
 #mainNav .navbar-brand {
   color: #ffc800;
@@ -12065,12 +12091,12 @@ header.subHead .subHead-heading {
 }
 
 section#contact {
-  padding: 3rem;
+  padding: 0.75rem;
 }
 section#contact .container {
   background: url('../assets/img/img_CFO_contact.jpg') no-repeat center/cover;
   max-width: none;
-  padding: 5.25rem;
+  padding: 2.25rem;
 }
 section#contact .section-heading {
   color: #fff;
@@ -12114,6 +12140,16 @@ section#contact form#contactForm ::-moz-placeholder {
 section#contact form#contactForm :-ms-input-placeholder {
   font-weight: 700;
   color: #ced4da;
+}
+@media (min-width: 768px) {
+  section#contact {
+    padding: 3rem;
+  }
+  section#contact .container {
+    background: url('../assets/img/img_CFO_contact.jpg') no-repeat center/cover;
+    max-width: none;
+    padding: 5.25rem;
+  }
 }
 
 .footer {
