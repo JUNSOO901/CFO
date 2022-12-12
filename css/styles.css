@@ -11949,7 +11949,7 @@ header.mainHead .mainHead-heading {
 /* sub header */
 header.subHead {
   padding-top: 10.5rem;
-  padding-bottom: 6rem;
+  padding-bottom: 4rem;
   text-align: center;
   color: #fff;
   background-repeat: no-repeat;
@@ -11964,7 +11964,7 @@ header.subHead .subHead-subheading {
   font-weight: 400;
 }
 header.subHead .subHead-heading {
-  font-size: 1rem;
+  font-size: 2rem;
   font-weight: 700;
   line-height: 3.25rem;
   margin-bottom: 1rem;
@@ -12203,18 +12203,35 @@ section#contact form#contactForm :-ms-input-placeholder {
   flex-direction: row;
   justify-content: center;
   border-bottom: 1px solid #e0e0e0;
+  display: none;
 }
-
 .contents_nav .nav-item {
-  margin-right: 3rem;
+  margin-right: 1rem;
 }
 .contents_nav .nav-item:last-child {
   margin-right: 0rem;
 }
-
 .contents_nav .nav-item .nav-link {
   color: #333;
-  padding: 2rem 0;
+  padding: 1rem 0;
+}
+@media (min-width: 768px) {
+  .contents_nav .navbar-nav {
+    flex-direction: row;
+    justify-content: center;
+    border-bottom: 1px solid #e0e0e0;
+    display: flex;
+  }
+  .contents_nav .nav-item {
+    margin-right: 3rem;
+  }
+  .contents_nav .nav-item:last-child {
+    margin-right: 0rem;
+  }
+  .contents_nav .nav-item .nav-link {
+    color: #333;
+    padding: 2rem 0;
+  }
 }
 /* contents nav end */
 /* === DoctorTwiceClub end ===*/
@@ -12234,7 +12251,7 @@ header.bg-mode1 {
 }
 
 #funnel-system .container {
-  padding: 4rem 7rem;
+  padding: 3rem 2rem;
   color: white;
 }
 #funnel-system .viewBox_1 {
@@ -12261,6 +12278,12 @@ header.bg-mode1 {
   background: url(../assets/img/img_CFO_mode2_viewBox_3.jpg) no-repeat
     center/cover;
 }
+@media (min-width: 768px) {
+  #funnel-system .container {
+    padding: 4rem 7rem;
+    color: white;
+  }
+}
 
 .row-box {
   display: flex;
@@ -12274,20 +12297,32 @@ header.bg-mode1 {
   border: 1px solid #e0e0e0;
   font-weight: 400;
   padding: 2rem 1rem;
-  margin-right: 1rem;
+  margin: 0 0.5rem;
   color: #333;
   height: 100px;
-
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 1rem;
 }
 .list-disc::before {
   display: contents;
   content: '\F519  ';
   color: #1775f9;
   font-family: 'Bootstrap-icons';
-  font-size: 1rem;
+  font-size: 0.75rem;
+}
+@media (min-width: 768px) {
+  .row-box .row-text {
+    font-size: 1.5rem;
+  }
+  .list-disc::before {
+    display: contents;
+    content: '\F519  ';
+    color: #1775f9;
+    font-family: 'Bootstrap-icons';
+    font-size: 1rem;
+  }
 }
 
 /* === mode_2 page start ===*/
