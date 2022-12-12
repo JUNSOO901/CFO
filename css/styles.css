@@ -11791,6 +11791,7 @@ p {
   padding-top: 1rem;
   padding-bottom: 1rem;
   background-color: #212529;
+  transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
 }
 #mainNav .navbar-toggler {
   padding: 0.75rem;
@@ -11798,8 +11799,9 @@ p {
   text-transform: uppercase;
   font-weight: 700;
   position: absolute;
-  top: 1.75rem;
+  top: 1.5rem;
   right: 1rem;
+  transition: top 0.3s ease-in-out;
 }
 #mainNav .navbar-brand {
   color: #ffc800;
@@ -11822,6 +11824,37 @@ p {
 #mainNav .navbar-nav .nav-item .nav-link.active,
 #mainNav .navbar-nav .nav-item .nav-link:hover {
   color: #ffc800;
+}
+/* 모바일 버전 스크롤 내릴시 네비게이션 바 */
+#mainNav.navbar-shrink {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  background-color: #fff;
+  box-shadow: 0 3px 6px #00000009;
+}
+#mainNav.navbar-shrink .navbar-brand {
+  font-size: 1.25em;
+  display: none;
+}
+#mainNav.navbar-shrink .navbar-brand_hidden {
+  font-size: 1.25em;
+  display: block;
+}
+#mainNav.navbar-shrink .navbar-toggler {
+  padding: 0.75rem;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  position: absolute;
+  top: 1.2rem;
+  right: 1rem;
+  color: #333;
+  border: 1px solid #33333375;
+}
+#mainNav.navbar-shrink .navbar-nav .nav-item .nav-link {
+  font-size: 0.95rem;
+  color: #333;
+  letter-spacing: 0.0625em;
 }
 
 @media (min-width: 992px) {
@@ -12058,7 +12091,8 @@ header.subHead .subHead-heading {
   color: #fff;
 }
 #clinics .clinics-box h3 {
-  padding: 5.5rem 2rem;
+  padding: 5.5rem 1rem;
+  margin-bottom: 1rem;
 }
 
 #clinics .cilnic-pic-01 div {
