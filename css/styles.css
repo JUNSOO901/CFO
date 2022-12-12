@@ -11700,19 +11700,19 @@ p {
 }
 
 .page-section {
-  padding: 7.5rem 0;
+  padding: 3.5rem 0;
 }
 .page-section h2.section-heading,
 .page-section .section-heading.h2 {
-  font-size: 2.75rem;
+  font-size: 2rem;
   margin-top: 0;
   margin-bottom: 1rem;
 }
 .page-section h3.section-subheading,
 .page-section .section-subheading.h3 {
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 400;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 .page-divider-white {
   height: 0;
@@ -11731,6 +11731,21 @@ p {
 @media (min-width: 768px) {
   section {
     padding: 9rem 0;
+  }
+  .page-section {
+    padding: 7.5rem 0;
+  }
+  .page-section h2.section-heading,
+  .page-section .section-heading.h2 {
+    font-size: 2.75rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+  .page-section h3.section-subheading,
+  .page-section .section-subheading.h3 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 4rem;
   }
 }
 .btn-xl {
@@ -11842,13 +11857,13 @@ header.mainHead {
   background-size: cover;
 }
 header.mainHead .mainHead-subheading {
-  font-size: 1rem;
+  font-size: 1.25rem;
   line-height: 1.5rem;
   margin-bottom: 25px;
   font-weight: 350;
 }
 header.mainHead .mainHead-heading {
-  font-size: 4rem;
+  font-size: 2.5rem;
   font-weight: 700;
   line-height: 3.25rem;
   margin-bottom: 1rem;
@@ -11948,29 +11963,42 @@ header.subHead .subHead-heading {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 700px;
+  height: 360px;
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
 }
-
 #knowhow .knowhow-box i {
   font-size: 5rem;
   margin-bottom: 1rem;
   margin-right: 1rem;
   color: white;
 }
-
 #knowhow .knowhow-box a {
   transition: all 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
-
 #knowhow .knowhow-box a:hover {
   transform: scale(1.1);
 }
-
 #knowhow .section-heading {
   color: white;
+}
+@media (min-width: 768px) {
+  #knowhow .knowhow-box {
+    background-color: #212529;
+    background-image: url('../assets/img/bg_CFO_knowhow.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-direction: row;
+    text-align: left;
+  }
 }
 
 #howServises {
