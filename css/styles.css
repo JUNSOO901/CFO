@@ -12324,6 +12324,12 @@ header.bg-mode1 {
   align-items: center;
   font-size: 1rem;
 }
+.row-box .row-text h4 {
+  font-size: 1.25rem;
+}
+.row-box .row-text p {
+  font-size: 0.875rem;
+}
 .row-box .row-text.list-disc {
   font-size: 1.125rem;
 }
@@ -12347,6 +12353,12 @@ header.bg-mode1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 1rem;
+  }
+  .row-box .row-text h4 {
+    font-size: 1.25rem;
+  }
+  .row-box .row-text p {
     font-size: 1rem;
   }
   .row-box .row-text.list-disc {
