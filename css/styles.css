@@ -75,6 +75,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  letter-spacing: -0.04rem;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -665,8 +666,8 @@ progress {
 .container-md,
 .container-sm {
   width: 100%;
-  padding-right: var(--bs-gutter-x, 0.75rem);
-  padding-left: var(--bs-gutter-x, 0.75rem);
+  padding-right: var(--bs-gutter-x, 1.25rem);
+  padding-left: var(--bs-gutter-x, 1.25rem);
   margin-right: auto;
   margin-left: auto;
 }
@@ -11856,6 +11857,9 @@ p {
   color: #333;
   letter-spacing: 0.0625em;
 }
+#mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover {
+  color: #1775f9;
+}
 
 @media (min-width: 992px) {
   #mainNav {
@@ -12125,7 +12129,7 @@ header.subHead .subHead-heading {
 }
 
 section#contact {
-  padding: 0.75rem;
+  padding: 1.25rem;
 }
 section#contact .container {
   background: url('../assets/img/img_CFO_contact.jpg') no-repeat center/cover;
@@ -12299,7 +12303,7 @@ header.bg-mode1 {
   padding: 2rem 1rem;
   margin: 0 0.5rem;
   color: #333;
-  height: 100px;
+  height: 120px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12313,9 +12317,9 @@ header.bg-mode1 {
   font-size: 0.75rem;
 }
 @media (min-width: 768px) {
-  .row-box .row-text {
+  /* .row-box .row-text {
     font-size: 1.5rem;
-  }
+  } */
   .list-disc::before {
     display: contents;
     content: '\F519  ';
