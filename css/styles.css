@@ -12372,6 +12372,7 @@ header.bg-mode1 {
     font-size: 1rem;
   }
 }
+/* === mode_1 page End ===*/
 
 /* === mode_2 page start ===*/
 header.bg-mode2 {
@@ -12407,6 +12408,9 @@ header.bg-mode3 {
 .contact-nav .navbar-brand {
   display: block !important;
 }
+#contactInput label {
+  margin-bottom: 0.5rem;
+}
 @media (min-width: 768px) {
   .contact-nav.navbar-shrink {
     box-shadow: 0 3px 6px #00000008 !important;
@@ -12423,9 +12427,4 @@ header.bg-mode3 {
   .contact-nav .navbar-brand {
     display: none !important;
   }
-}
-
-/* === contact page start ===*/
-#contactInput label {
-  margin-bottom: 0.5rem;
 }
