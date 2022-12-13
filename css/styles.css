@@ -12377,14 +12377,40 @@ header.bg-mode3 {
 .contact-nav.navbar-shrink {
   box-shadow: 0 3px 6px #00000008 !important;
 }
-.contact-nav .nav-link {
-  color: #000 !important;
-}
-.contact-nav .navbar-brand_hidden {
+.contact-nav.navbar-shrink .navbar-brand_hidden {
   display: block !important;
 }
-.contact-nav .navbar-brand {
+.contact-nav.navbar-shrink .navbar-brand {
   display: none !important;
+}
+.contact-nav.navbar-shrink .nav-link {
+  color: #000;
+}
+.contact-nav .nav-link {
+  color: #fff;
+}
+.contact-nav .navbar-brand_hidden {
+  display: none !important;
+}
+.contact-nav .navbar-brand {
+  display: block !important;
+}
+@media (min-width: 768px) {
+  .contact-nav.navbar-shrink {
+    box-shadow: 0 3px 6px #00000008 !important;
+  }
+  #mainNav.contact-nav .navbar-nav .nav-item .nav-link {
+    color: #333;
+  }
+  #mainNav.contact-nav .navbar-nav .nav-item .nav-link:hover {
+    color: #1775f9;
+  }
+  .contact-nav .navbar-brand_hidden {
+    display: block !important;
+  }
+  .contact-nav .navbar-brand {
+    display: none !important;
+  }
 }
 
 /* === contact page start ===*/

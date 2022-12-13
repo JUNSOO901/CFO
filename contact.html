@@ -42,7 +42,9 @@
     <header class="subHead text-dark">
       <div class="container">
         <div class="subHead-heading text-uppercase">
-          우리 병원의 체계적인 성장과 성공을 위한<br />
+          우리 병원의 체계적인 성장과 성공을 위한<br
+            class="d-none d-md-block"
+          />
           발판을 찾고 계시다면 문의주세요.
         </div>
         <div class="subHead-subheading text-muted fw-normal list-disc">
@@ -79,7 +81,7 @@
                 id="Name"
                 value=""
                 name="customer"
-                placeholder="이름을 입력해주세요."
+                placeholder="성함을 입력해주세요."
                 required=""
                 minlength="2"
               />
@@ -96,11 +98,11 @@
                 class="form-control"
                 id="PhoneNumber"
                 name="phone"
-                placeholder="하이폰(-)없이 공백"
+                placeholder="하이폰 (-) 없이 공백으로 입력해주세요"
                 required=""
                 pattern="^[0-9]{9,15}$"
               />
-              <div class="invalid-feedback">연락처를 입력해주세요.</div>
+              <div class="invalid-feedback">연락처를 입력해주세요</div>
             </div>
             <div class="form-group mt-3">
               <label for="PhoneNumber"
@@ -126,7 +128,7 @@
                 id="HospitalName"
                 value=""
                 name="hospital"
-                placeholder="병원명을 입력해주세요."
+                placeholder="병원명을 입력해주세요"
               />
               <div class="invalid-feedback">병원명을 올바로 입력해주세요.</div>
             </div>
@@ -138,7 +140,7 @@
               id="Inquiries"
               rows="5"
               name="message"
-              placeholder="문의하고자 하는 내용을 남겨주세요."
+              placeholder="문의하고자 하는 내용을 남겨주세요"
             ></textarea>
           </div>
           <div class="form-group mt-3">
