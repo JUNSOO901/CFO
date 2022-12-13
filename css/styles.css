@@ -11728,7 +11728,7 @@ p {
 }
 .page-section h2.section-heading,
 .page-section .section-heading.h2 {
-  font-size: 2rem;
+  font-size: 1.75rem;
   margin-top: 0;
   margin-bottom: 1rem;
 }
@@ -11824,7 +11824,7 @@ p {
 }
 #mainNav .navbar-nav .nav-item .nav-link.active,
 #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #ffc800;
+  color: #1775f9;
 }
 /* 모바일 버전 스크롤 내릴시 네비게이션 바 */
 #mainNav.navbar-shrink {
@@ -11910,7 +11910,7 @@ p {
 }
 header.mainHead {
   padding-top: 10.5rem;
-  padding-bottom: 6rem;
+  padding-bottom: 4rem;
   text-align: center;
   color: #fff;
   background-image: url('../assets/img/bg_CFO_slide_1.jpg');
@@ -11996,14 +11996,17 @@ header.subHead .subHead-heading {
 /* main page start */
 #services .section-box {
   border: 1px solid #e0e0e0;
-  padding: 1rem;
-  padding-top: 3.5rem;
-  padding-bottom: 3rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+#services .section-box h4 {
+  font-size: 1rem;
 }
 
 #services .section-box img {
-  max-height: 110px;
-  padding-bottom: 1rem;
+  max-height: 80px;
+  padding-bottom: 0rem;
 }
 
 #manager span {
@@ -12026,7 +12029,7 @@ header.subHead .subHead-heading {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 360px;
+  height: 320px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -12034,7 +12037,7 @@ header.subHead .subHead-heading {
   text-align: center;
 }
 #knowhow .knowhow-box i {
-  font-size: 5rem;
+  font-size: 4rem;
   margin-bottom: 1rem;
   margin-right: 1rem;
   color: white;
@@ -12049,6 +12052,18 @@ header.subHead .subHead-heading {
   color: white;
 }
 @media (min-width: 768px) {
+  #services .section-box h4 {
+    font-size: 1.5rem;
+  }
+  #services .section-box img {
+    max-height: 110px;
+    padding-bottom: 1rem;
+  }
+  #services .section-box {
+    border: 1px solid #e0e0e0;
+    padding-top: 3.5rem;
+    padding-bottom: 3rem;
+  }
   #knowhow .knowhow-box {
     background-color: #212529;
     background-image: url('../assets/img/bg_CFO_knowhow.jpg');
