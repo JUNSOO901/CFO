@@ -11722,6 +11722,24 @@ p {
 .arrow-box.show {
   opacity: 1;
 }
+/* 전역 모바일 이미지 설정  */
+/* 모바일 화면 (width 768px 이하) */
+.pc_img {
+  display: none;
+}
+.mob_img {
+  display: block;
+  width: 100vw;
+}
+/* 태블릿 화면 (width 768px 이상)*/
+@media (min-width: 768px) {
+  .pc_img {
+    display: block;
+  }
+  .mob_img {
+    display: none;
+  }
+}
 
 .page-section {
   padding: 3.5rem 0;
