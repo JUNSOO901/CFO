@@ -12402,6 +12402,14 @@ header.bg-mode2 {
 header.bg-mode3 {
   background-image: url('../assets/img/bg_CFO_mode3_1.jpg');
 }
+.mode3Art_img {
+  max-width: 800px;
+}
+@media (min-width: 768px) {
+  .mode3Art_img {
+    max-width: 100%;
+  }
+}
 /* === mode_3 page End ===*/
 
 /* === contact page start ===*/
