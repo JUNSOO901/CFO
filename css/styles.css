@@ -12032,15 +12032,6 @@ header.subHead .subHead-heading {
   font-size: 1.125rem;
 }
 
-#cfoMedia .media-box {
-  /* border: 1px solid #e0e0e0; */
-}
-
-#cfoMedia .media-box iframe {
-  height: calc(100vh - 600px);
-  width: 100%;
-}
-
 #knowhow .knowhow-box {
   background-color: #212529;
   background-image: url('../assets/img/bg_CFO_knowhow.jpg');
